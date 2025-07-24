@@ -30,7 +30,8 @@ Yap! Ini dia **MyCatatan Keuangan** — personal money tracker dengan tampilan g
 ## 📸 Tampilan Aplikasi
 
 > 💁‍♀️ Form Tambah Transaksi:
-![Tampilan Tambah Catatan](MyCatatan-UAS/tampilantambahcatatan.jpeg)
+![Tampilan Tambah Catatan](tampilantambahcatatan.jpeg)
+
 > 🧾 Riwayat Transaksi:
 ![Riwayat Catatan](MyCatatan-UAS/tampilanriwayatcatatan.jpeg)
 
