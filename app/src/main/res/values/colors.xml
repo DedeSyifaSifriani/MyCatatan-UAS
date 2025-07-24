@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna oranye cerah -->
+    <color name="orange_light">#FFCC80</color>  <!-- Accent -->
+    <color name="orange">#FFA726</color>        <!-- Primary -->
+    <color name="orange_dark">#FB8C00</color>   <!-- Primary Dark -->
+
+    <!-- Kompatibel dengan tema -->
+    <color name="colorPrimary">@color/orange</color>
+    <color name="colorPrimaryDark">#EB6EA0</color>
+    <color name="colorAccent">@color/orange_light</color>
+
+    <!-- Warna lainnya -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+        <color name="pink_light">#F8BBD0</color>     <!-- Accent -->
+        <color name="pink">#FA719F</color>           <!-- Primary -->
+        <color name="pink_dark">#F42C7B</color>      <!-- Primary Dark -->
+        <color name="green">#66BB6A</color>          <!-- Secondary -->
+        <color name="green_dark">#388E3C</color>     <!-- Secondary Dark -->
+
+    <color name="matcha_light">#E0F2F1</color>     <!-- Soft Green -->
+    <color name="matcha">#A5D6A7</color>           <!-- Matcha pastel -->
+    <color name="matcha_dark">#388E3C</color>      <!-- Dark Green -->
+    <color name="pink_soft">#F8BBD0</color>        <!-- Sweet Pink -->
+    <color name="white">#FFFFFF</color>
+    <color name="brown">#8D6E63</color>            <!-- Earthy Tone -->
+    <color name="red">#E57373</color>              <!-- For delete -->
+
+</resources>
+
+
+

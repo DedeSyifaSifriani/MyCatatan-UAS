@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Gen Z -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where my money💅"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/pink_soft"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Input Judul -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
+                android:hint="Spill the tea☕ "
+                android:textColor="@color/pink"
+                android:textColorHint="@color/pink_light" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Input Nominal -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etNominal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
+                android:hint="How much 💸"
+                android:inputType="number"
+                android:textColor="@color/pink"
+                android:textColorHint="@color/pink_light" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Input Tanggal -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etTanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
+                android:hint="Pick a date 📅"
+                android:focusable="false"
+                android:clickable="true"
+                android:textColor="@color/pink_light"
+                android:textColorHint="@color/teal_200" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Tipe Transaksi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Transaksi 💳"
+            android:textColor="@color/pink"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbPemasukan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Masuk 💵"
+                android:textColor="@color/green"
+                android:padding="12dp"
+                android:buttonTint="@color/matcha_dark" />
+
+            <RadioButton
+                android:id="@+id/rbPengeluaran"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Keluar 💀"
+                android:textColor="@color/matcha_light"
+                android:padding="12dp"
+                android:buttonTint="@color/pink" />
+        </RadioGroup>
+
+        <!-- Dropdown Kategori -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/spinnerKategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
+                android:hint="Kategori? 🎧🍵🍰"
+                android:textColor="@color/green"
+                android:textColorHint="@color/matcha_light"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Tombol Simpan -->
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="💾 Save it"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Tombol Riwayat -->
+        <Button
+            android:id="@+id/btnRiwayat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📜 Lets check all"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/matcha"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <!-- Tombol Hapus -->
+        <ImageButton
+            android:id="@+id/btnHapus"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_delete"
+            android:contentDescription="Delete Transaksi"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@color/pink_light"
+            android:layout_gravity="end"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+</ScrollView>
