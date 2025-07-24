@@ -56,9 +56,9 @@ MyCatatUang/
    ```bash
    git clone https://github.com/DedeSyifaSifriani/MyCatatan-UAS.git
    
-2.Buka di Android Studio
+2. Buka di Android Studio
 
-3.Jalankan di emulator atau perangkat fisik
+3. Jalankan di emulator atau perangkat fisik
 
 📌 Catatan
 Mode malam dinonaktifkan agar warna tetap cerah dan konsisten.
@@ -66,8 +66,11 @@ Semua file Activity, Adapter, dan Entity diletakkan dalam folder model.
 
 ## 👩🏻‍💻 Developer
 🧕 Dede Syifa Sifriani
+
 📚 Mahasiswi Teknik Informatika
+
 📎 Proyek UAS Pemrograman Mobile 2
+
 📅 Juli 2025
 -Dikembangkan oleh mahasiswa untuk memenuhi proyek UAS mata kuliah Pemrograman Mobile2. Proyek ini sekaligus menjadi latihan pembuatan aplikasi personal finance sederhana.
 
