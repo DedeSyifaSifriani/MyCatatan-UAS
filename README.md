@@ -54,8 +54,10 @@ MyCatatUang/
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/MyCatatUang.git
+   git clone https://github.com/DedeSyifaSifriani/MyCatatan-UAS.git
+   
 2.Buka di Android Studio
+
 3.Jalankan di emulator atau perangkat fisik
 
 📌 Catatan
