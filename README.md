@@ -33,7 +33,7 @@ Yap! Ini dia **MyCatatan Keuangan** — personal money tracker dengan tampilan g
 ![Tampilan Tambah Catatan](tampilantambahcatatan.jpeg)
 
 > 🧾 Riwayat Transaksi:
-![Riwayat Catatan](MyCatatan-UAS/tampilanriwayatcatatan.jpeg)
+![Riwayat Catatan](tampilanriwayatcatatan.jpeg)
 
 ---
 
