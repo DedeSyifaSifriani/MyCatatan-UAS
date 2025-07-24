@@ -29,10 +29,12 @@ Yap! Ini dia **MyCatatan Keuangan** — personal money tracker dengan tampilan g
 
 ## 📸 Tampilan Aplikasi
 
-> 💁‍♀️ Form Tambah Transaksi:
+# #> 💁‍♀️ Form Tambah Transaksi:
+
 ![Tampilan Tambah Catatan](tampilantambahcatatan.jpeg)
 
-> 🧾 Riwayat Transaksi:
+## > 🧾 Riwayat Transaksi:
+
 ![Riwayat Catatan](tampilanriwayatcatatan.jpeg)
 
 ---
